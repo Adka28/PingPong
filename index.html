@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <title>Adka28 - Vacation Suggester</title>
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pageHeader text-center">
+                <h1>Ping-Pong</h1>
+            </div>
+        </div>
+        <div class="row pageContent">
+            <div class="col pageNavigation">
+                <h4>About Ping-Pong</h4>
+                <h6>Created by</h6>
+                <a href="https://adka28.github.io/MyPortfolio/">Andrea Szaboova</a>
+            </div>
+            <div class="col pageApplication">
+                    <h4>Lets play!</h4>
+                    <h6>Rules</h6>
+                <p>Ping Pong will count up to <i>your number</i> from 1 with following exceptions:</p>
+                <ol>
+                    <li>
+                        Numbers divisible by 3 become "ping"
+                    </li>
+                    <li>
+                        Numbers divisible by 5 become "pong"
+                    </li>
+                    <li>
+                        Numbers divisible by 15 become "ping-pong"
+                    </li>
+                </ol>
+                <form id="appForm">
+                    <div class="row">
+                        <div class="col">
+                            <label for="number">
+                                <h5>
+                                    <strong>Enter your number here</strong>
+                                </h5>
+                            </label>
+                        </div>
+                        <div class="col">
+                            <input id="number" class="form-control" type="text">
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Ping-Pong!</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="result">
+                    <p>this is a test</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
